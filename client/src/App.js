@@ -19,8 +19,6 @@ function App() {
       .then(res => setLink(res.data.imageURL))
   }
 
-
-
   return (
     <div className="App">
       <input type="file" name="image" onChange={change} />
